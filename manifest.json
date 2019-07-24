@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
-  "name": "Sample",
+  "name": "Browser Action Sample",
   "version": "1.0.0",
-  "description": "Sample Extension demonstrating adding & removing UI in DOM",
+  "description": "Sample Extension demonstrating adding & removing UI in DOM using Browser Action",
   "icons": {
     "16": "icon16.png",
     "19": "icon19.png",
