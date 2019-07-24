@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
-  "name": "Sample",
+  "name": "Page Action Sample",
   "version": "1.0.0",
-  "description": "Sample Extension demonstrating adding & removing UI in DOM",
+  "description": "Sample Extension demonstrating adding & removing UI in DOM using Page Action",
   "icons": {
     "16": "icon16.png",
     "19": "icon19.png",
@@ -17,11 +17,11 @@
     "scripts": ["background.js"],
     "persistent": false
   },
-  "browser_action": {
+  "page_action": {
     "default_icon": {
       "19": "icon19.png",
       "38": "icon38.png"
     }
   },
-  "permissions": ["activeTab"]
+  "permissions": ["activeTab", "declarativeContent"]
 }
